@@ -1,6 +1,6 @@
 
 # self-driving-car-simulation
-Self driving car simulation using hte provided simulator by Udacity.The goal of this project is to make a car drive autonomously using  a deep learning approach by feeding an input image to a neural network and predicting the steering angle.
+Self driving car simulation using Udacity.The goal of this project is to make a car drive autonomously using a deep learning approach by feeding an input image to a neural network and predicting the steering angle.
 
 ## Code structure: 
 * [`main.py`](https://github.com/adelbennaceur/self-driving-car-simulation/blob/master/main.py) : contains the script to train the neural network.
@@ -10,7 +10,7 @@ Self driving car simulation using hte provided simulator by Udacity.The goal of 
 
 
 ## Dataset:
-The dataset is collected fropm the udacity self driving car simulator.
+The dataset is collected from the udacity self driving car simulator.
 
 ## Dataset directory structure:
 ```
