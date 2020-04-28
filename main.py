@@ -10,8 +10,6 @@ from sklearn.model_selection import train_test_split
 from utils import *
 from model import sfd_model
 
-#images after preprocessign
-#directory tree
 
 parser = argparse.ArgumentParser(description='command line for diffrent parameters')
 parser.add_argument('-dir', type = str ,required = True,
