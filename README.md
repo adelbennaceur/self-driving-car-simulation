@@ -1,12 +1,12 @@
 
 # self-driving-car-simulation
-Self driving car simulation using hte provided simulator by Udacity.The goal of this project is to make a car drive autonomously using  a deep learning approach by feeding an input image to a neural network and predicting the steering angle associated with it.
+Self driving car simulation using hte provided simulator by Udacity.The goal of this project is to make a car drive autonomously using  a deep learning approach by feeding an input image to a neural network and predicting the steering angle.
 
 ## Code structure: 
-* [**main.py**](https://github.com/adelbennaceur/self-driving-car-simulation/blob/master/main.py). : contains the script to train the neural network.
-* [**model.py**](https://github.com/adelbennaceur/self-driving-car-simulation/blob/master/model.py). : contains the model (neural network) architecture.
-*  [**utils.py**](https://github.com/adelbennaceur/self-driving-car-simulation/blob/master/utils.py). : contains  functions for preprocessing and loading the data.
-*  [**drive.py**](https://github.com/adelbennaceur/self-driving-car-simulation/blob/master/drive.py). : contains the script to connect to the simulator and run your model.
+* [`**main.py**`](https://github.com/adelbennaceur/self-driving-car-simulation/blob/master/main.py) : contains the script to train the neural network.
+* [`**model.py**`](https://github.com/adelbennaceur/self-driving-car-simulation/blob/master/model.py): contains the model (neural network) architecture.
+*  [`**utils.py**`](https://github.com/adelbennaceur/self-driving-car-simulation/blob/master/utils.py): contains  functions for preprocessing and loading the data.
+*  [`**drive.py**`](https://github.com/adelbennaceur/self-driving-car-simulation/blob/master/drive.py): contains the script to connect to the simulator and run your model.
 
 
 ## Dataset:
