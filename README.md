@@ -4,22 +4,24 @@ Self driving car simulation using hte provided simulator by Udacity.The goal of 
 
 code structure: 
 
-#dataset:
+## Dataset:
+The dataset is collected fropm the udacity self driving car simulator.
 
-#Dataset directory structure:
+## Dataset directory structure:
+```
 Directory
 ├── driving_log.csv
 └─┬ IMG
   └── center_2019_03_12_17_11_43_382.jpg
   └── .....
+```
 
-
-#install dependecies:
+## Install dependecies:
 ```
 $pip install -r requirement.txt
 ```
 
-#train on your own dataset:
+## Train on your own dataset:
 run the command to see the available arguments. Example: 
 ```
 $ python main.py -dir your_data_directory -optimizer rmsprop -lr 0.001 -batch_size 32 -epochs 20 
