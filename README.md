@@ -27,7 +27,11 @@ $pip install -r requirement.txt
 ```
 
 ## Train on your own dataset:
-run the command to see the available arguments. Example: 
+run the command to see the available arguments:
+```
+$ python main.py -h
+```
+### Example: 
 ```
 $ python main.py -dir your_data_directory -optimizer rmsprop -lr 0.001 -batch_size 32 -epochs 20 
 ```
