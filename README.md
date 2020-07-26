@@ -33,5 +33,5 @@ $ python main.py -h
 ```
 ### Example: 
 ```
-$ python main.py -dir your_data_directory -optimizer rmsprop -lr 0.001 -batch_size 32 -epochs 20 
+$ python main.py -dir path/to/dataset -optimizer rmsprop -lr 0.001 -batch_size 32 -epochs 20 
 ```
