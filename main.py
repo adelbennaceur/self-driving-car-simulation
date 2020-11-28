@@ -11,17 +11,17 @@ from utils import *
 from model import sfd_model
 
 
-parser = argparse.ArgumentParser(description='command line for diffrent parameters')
+parser = argparse.ArgumentParser(description='command line for different parameters')
 parser.add_argument('-dir', type = str ,required = True,
                     help='data directory for the csv and the images')
 parser.add_argument('-optimizer', type = str ,required = False , default = 'adam',
                     help='possible arguments : sgd , adagrad , adam , rmsprop. default: Adam')
-parser.add_argument('-lr', type = float ,required = False , default = 0.0001,
+parser.add_argument('-lr', type = float ,required = False , default = 0.001,
                     help='learning rate for the optimizer ex : 0.01, 0,001 . default : 0.001')
 parser.add_argument('-batch_size', type = int ,required = False , default = 32 ,
                     help='how many samples per batch. default : 32')
 parser.add_argument('-epochs', type = int ,required = False , default = 25 ,
-                    help='how many samples per batch. default : 32')
+                    help='how many samples per batch. default : 25')
 
 args = parser.parse_args()
 data_dir =  args.dir

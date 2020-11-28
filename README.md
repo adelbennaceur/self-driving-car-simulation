@@ -8,6 +8,9 @@ Self driving car simulation using Udacity.The goal of this project is to make a 
 *  [`utils.py`](https://github.com/adelbennaceur/self-driving-car-simulation/blob/master/utils.py): contains  functions for preprocessing and loading the data.
 *  [`drive.py`](https://github.com/adelbennaceur/self-driving-car-simulation/blob/master/drive.py): contains the script to connect to the simulator and run your model.
 
+## Model architecture 
+the model is inspired from the nvidia End to End self driving car network.
+![CNN architecture](imgs/cnn-architecture.png?raw=True)
 
 ## Dataset:
 The dataset is collected from the udacity self driving car simulator.
@@ -21,9 +24,9 @@ Directory
   └── .....
 ```
 
-## Install dependecies:
+## Install dependencies:
 ```
-$pip install -r requirement.txt
+$pip install -r requirements.txt
 ```
 
 ## Train on your own dataset:
