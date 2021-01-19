@@ -23,11 +23,14 @@ Directory
   └── center_2019_03_12_17_11_43_382.jpg
   └── .....
 ```
-
+## Results
+![Results](imgs/example.gif?raw=True)
 ## Install dependencies:
 ```
 $pip install -r requirements.txt
 ```
+
+
 
 ## Train on your own dataset:
 run the command to see the available arguments:
