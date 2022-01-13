@@ -7,5 +7,5 @@ opencv_python==4.2.0.34
 Flask==1.1.1
 matplotlib==3.2.1
 gevent_socketio==0.3.6
-Pillow==7.1.2
+Pillow==9.0.0
 scikit_learn==0.23.1
